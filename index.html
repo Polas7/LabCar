@@ -13,10 +13,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- css-->
 	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 	<!-- Font Awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!--favicon-->
-	<link rel="shortcut icon" href="assets/img/favicon.jpg"/>
+	<link rel="shortcut icon" href="assets/img/favicon.png"/>
 </head>
 <body>
 	<section class="primera-seccion collapsed">
@@ -28,25 +29,32 @@
 					</a>
 				</div>
 				<div class="navbar-header navbar-left">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed">
+					<button type="button" class="link hola navbar-toggle collapsed" id="hola" data-toggle="collapsed">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
+						<!--nav responsive-->
+						<nav id="nav" class="menu">
+							<a href="#travel" class="link chao" id="chao">Viaja</a>
+							<a href="#drive" class="link chao" id="chao">Conduce</a>
+							<a href="#sesion" class="link chao" id="chao">Inicia Sesión</a>
+						</nav>
 					</button>
+
 				</div>
 				<ul class="nav navbar-nav navbar-right hidden-xs" id="lista">
-					<li><a href="#fundation">Viaja</a></li>
-					<li><a href="#koala">Conduce</a></li>
-					<li><a href="#donate">Inicia Sesión</a></li>		
+					<li><a href="#travel">Viaja</a></li>
+					<li><a href="#drive">Conduce</a></li>
+					<li><a href="#sesion">Inicia Sesión</a></li>		
 				</ul>
 			</div>
 		</nav>
-		</section>
+	</section>
 	
-		<!-- Script de Jquery y Bootstrap -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-	</body>
-	</html>	
+	<!-- Script de Jquery y Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>	
